@@ -1,0 +1,56 @@
+[
+  {
+    "name": "superking",
+    "code": "sk24",
+    "description": "full bed set for superking bed",
+    "price": 12.36
+  },
+  {
+    "name": "king",
+    "code": "k24",
+    "description": "full bed set for king bed",
+    "price": 11.48
+  },
+  {
+    "name": "double",
+    "code": "d24",
+    "description": "full bed set for double bed",
+    "price": 11.48
+  },
+  {
+    "name": "single",
+    "code": "s24",
+    "description": "full bed set for single bed",
+    "price": 8.95
+  },
+  {
+    "name": "bath sheet",
+    "code": "bs24",
+    "description": "bath sheet",
+    "price": 2.73
+  },
+  {
+    "name": "hand towel",
+    "code": "ht24",
+    "description": "hand towel",
+    "price": 1.38
+  },
+  {
+    "name": "bath mat",
+    "code": "bm24",
+    "description": "bath mat",
+    "price": 2.59
+  },
+  {
+    "name": "tea towel",
+    "code": "tt24",
+    "description": "tea towel",
+    "price": 0.82
+  },
+  {
+    "name": "oven gloves",
+    "code": "og24",
+    "description": "set of oven gloves",
+    "price": 1.47
+  }
+]

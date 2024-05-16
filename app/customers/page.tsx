@@ -1,9 +1,16 @@
-import Link from "next/link";
+import getCustomers from "@/lib/api/getCustomers";
 
-export default function CustomersPage() {
+export default async function CustomersPage() {
+  const customers = await getCustomers();
+
   return (
     <main className="flex min-h-screen flex-col items-start justify-start px-12 py-5">
-      Customers Page
+      <h4>Customers Page</h4>
+      <ul>
+        {customers.map((customer, index) => (
+          <li key={index}>{customer.name}</li>
+        ))}
+      </ul>
     </main>
   );
 }

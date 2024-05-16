@@ -11,8 +11,8 @@ export default function Navbar({
   const pathname = usePathname();
 
   return (
-    <div className="sticky top-0 bg-background w-full flex flex-row items-end justify-start border py-4 px-12">
-      <h4> Black Swan Linen</h4>
+    <div className="sticky top-0 bg-background w-full flex flex-row items-center justify-start border py-4 px-12">
+      <h3> Black Swan Linen</h3>
       <nav
         className={cn(
           "flex items-center gap-4 text-sm lg:gap-6 ml-10",
